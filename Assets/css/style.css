@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: fantasy;
+}
+
+.card {
+    background-color: #c00f0f;
+}
+
+.img_pokedex {
+    width: 100%;
+}
+.img_pokemon {
+    width: 200px;
+    align-content: center;
+}
+.img_pokeball {
+    width: 200px;
+    transform: rotate(1440deg);
+    transition: 10s;
+}
+.img_pokeball:hover {
+    transform: rotatez(720deg);
+    transition: 2s;
+}
