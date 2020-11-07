@@ -21,7 +21,7 @@ body {
     align-content: center;
 }
 .img_pokeball {
-    width: 30%;
+    width: 22%;
     transform: rotate(1440deg);
     transition: 10s;
     align-content: center;
@@ -31,24 +31,22 @@ body {
     transition: 2s;
 }
 .form-control {
-    background-color: #131518;
     font-family: 'Press Start 2P', cursive;
     font-size: 8px;
 }
 .form-1 {
     height: 300px;
-    background-color: #7a870a;
-    border: 10px solid #cecdcd;
-    color: rgb(44, 44, 44);
+    border: 10px solid #918f8f;
+    color: black;
 }
 
 .btn {
-    box-shadow: 3px 3px 3px 3px  #1a1919;
+    box-shadow: 3px 3px 3px 3px gray;
 }
 .img_boton {
     width: 100%;
     justify-content: center;
     border-radius: 10px;
     align-content: center;
-    padding: 0;
+    border: 10px solid #918f8f;
 }
