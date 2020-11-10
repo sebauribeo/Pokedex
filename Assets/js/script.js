@@ -17,7 +17,6 @@ $(document).ready(function(){
                 `);
                 
                 var chart = new CanvasJS.Chart("chartContainer", {
-               
                     backgroundColor: '#9ae4ed',
                     animationEnabled: true,
                     title: {
@@ -41,7 +40,6 @@ $(document).ready(function(){
                             {y: character.stats[3].base_stat, label: "Sp. Attack"},
                             {y: character.stats[4].base_stat, label: "Sp. Defense"},
                             {y: character.stats[5].base_stat, label: "Speed"},
-
                         ]
                     }]
                 });
@@ -62,8 +60,8 @@ $(document).ready(function(){
                 });
                 
                 $('input').val("");
-
             },
+
             error: function(error){
                 console.error(error);
                 $('#chartContainer').html(`

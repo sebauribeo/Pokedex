@@ -1,3 +1,6 @@
+
+/* --------------------RESET-------------------- */
+
 body {
     margin: 0;
     padding: 0;
@@ -5,37 +8,18 @@ body {
     font-family: fantasy;
 }
 
+/* --------------------CARD-HEADER-------------------- */
 .card {
     background-color: #c00f0f;
     border-radius: 30px;
 }
-
-
 .img_pokedex {
     width: 100%;
     padding: 0 40px;
     height: auto;
-}   
+}
 
-.img_pokemon {
-    width: 200px;
-    align-content: center;
-}
-.img_pokeball {
-    width: 10%;
-    transform: rotate(1440deg);
-    transition: 10s;
-    align-content: center;
-}
-.img_pokeball:hover {
-    transform: rotatez(720deg);
-    transition: 2s;
-}
-.form-control {
-    font-family: 'Goldman', cursive;   
-    font-size: 15px;
-    width: 100%;
-}
+/* --------------------CARD-PANTALLA-------------------- */
 
 .form-1 {
     width: 100%;
@@ -53,23 +37,46 @@ body {
     font-size: 15px;
     color: black;
     align-content: center;
- 
 }
 .pantalla img {
     width: 200px;
     height: 200px;
 }
 
+/* --------------------CARD-POKEBALL-------------------- */
+
+.form-control {
+    font-family: 'Goldman', cursive;   
+    font-size: 15px;
+    width: 100%;
+}
+.img_pokeball {
+    width: 10%;
+    transform: rotate(1440deg);
+    transition: 10s;
+    align-content: center;
+}
+.img_pokeball:hover {
+    transform: rotatez(720deg);
+    transition: 2s;
+}
+
+/* --------------------CARD-SECTION-------------------- */
+
+#chartContainer {
+    height: 300px;
+    width: 100%;
+    padding: 0;
+}
+audio {
+    width: 15%;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px 4px  #965858;  
+}
 .btn {
     box-shadow: 1px 1px 3px 4px  #965858;  
     font-family: 'Goldman', cursive;   
     border-radius: 25px;
-
-}
-.img-boton {
-    width: 100%;
-    box-shadow: 1px 1px 3px 4px  #965858;  
-    margin-top: 10px;
 }
 .img_pk1 {
     width: 30%;
@@ -82,7 +89,19 @@ body {
     height: 30%;
     float: right;
     margin-top: -100px;
-
+}
+.img-boton {
+    width: 100%;
+    box-shadow: 1px 1px 3px 4px  #965858;  
+    margin-top: 10px;
+}
+h4 {
+    background-color: yellow;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 15px;
+    margin: 10px;
+    padding: 10px;
 }
 ul {
     padding: 0;
@@ -95,21 +114,15 @@ p {
     padding-top: 5px;
     text-align: center;
 }
-h4 {
-    background-color: yellow;
-    border-radius: 15px;
-    text-align: center;
-    font-size: 15px;
-    margin: 10px;
-    padding: 10px;
+
+/* --------------------CARD-FOOTER-------------------- */
+
+.img_pokemon {
+    width: 200px;
+    align-content: center;
 }
-#chartContainer {
-    height: 300px;
-    width: 100%;
-    padding: 0;
-}
-audio {
-    width: 15%;
-    border-radius: 5px;
-    box-shadow: 1px 1px 3px 4px  #965858;  
-}
+
+
+
+
+
