@@ -5,7 +5,7 @@ body {
     margin: 0;
     padding: 0;
     border: 0;
-    font-family: fantasy;
+    font-family: 'Goldman', cursive;   
 }
 
 /* --------------------CARD-HEADER-------------------- */
@@ -33,7 +33,6 @@ body {
 .pantalla {
     height: 100%;
     display: inline-block;
-    font-family: 'Goldman', cursive;
     font-size: 15px;
     color: black;
     align-content: center;
@@ -46,8 +45,7 @@ body {
 /* --------------------CARD-POKEBALL-------------------- */
 
 .form-control {
-    font-family: 'Goldman', cursive;   
-    font-size: 15px;
+    font-size: 10px;
     width: 100%;
 }
 .img_pokeball {
@@ -75,7 +73,6 @@ audio {
 }
 .btn {
     box-shadow: 1px 1px 3px 4px  #965858;  
-    font-family: 'Goldman', cursive;   
     border-radius: 25px;
 }
 .img_pk1 {
