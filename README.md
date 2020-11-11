@@ -1,2 +1,2 @@
 # Pokedex
-HTML / CSS / Bootstrap / jQuery / JavaScript
+HTML / CSS / Bootstrap / jQuery / JavaScript / Canvas Js.
