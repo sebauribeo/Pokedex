@@ -74,18 +74,19 @@ audio {
 .btn {
     box-shadow: 1px 1px 3px 4px  #965858;  
     border-radius: 25px;
+    margin-top: 100px;
 }
 .img_pk1 {
     width: 30%;
     height: 30%;
     float: left;
-    margin-top: -100px;
+    margin-top: -170px;
 }
 .img-pk2 {
     width: 30%;
     height: 30%;
     float: right;
-    margin-top: -100px;
+    margin-top: -170px;
 }
 .img-boton {
     width: 100%;
