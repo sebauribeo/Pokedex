@@ -14,7 +14,7 @@ $(document).ready(function(){
                 
                 $('#pokemon-1').html(`
                     <h4>${character.name}</h4>
-                    <img src="${character.sprites.front_default}" alt="">
+                    <img src="${character.sprites.other.dream_world.front_default}" alt="">
                 `);
                 
                 var chart = new CanvasJS.Chart("chartContainer", {
